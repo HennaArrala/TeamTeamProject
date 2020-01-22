@@ -1,6 +1,8 @@
 img{
     width: 240px;
     height: 160px;
+    float: left;
+    
 }
 
 .footer {
@@ -8,8 +10,7 @@ img{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(177, 177, 177);
-    color: rgb(3, 3, 3);
+    background-color: coral;
     text-align: center;
     font-size: 30px;
   }
