@@ -10,7 +10,7 @@ img{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: coral;
+    background-color: orangered;
     text-align: center;
     font-size: 30px;
   }
@@ -21,9 +21,10 @@ img{
 
 /* Nämä on lähinnä testailuja, liittyvät Headeriin */
 
+
 header{
-    background-color: coral;
-    height: 100px;
+    background-color:orangered;
+    height: 500px;
     background-position: center;
 }
 
@@ -33,6 +34,7 @@ ul {
 
 }
 
+
 ul li {
 display: inline-block;
 
@@ -40,7 +42,9 @@ display: inline-block;
 
 ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 5px 20px;
-    border: 3px, solid black;
+    border: 3px white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
