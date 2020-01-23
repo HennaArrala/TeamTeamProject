@@ -56,16 +56,14 @@ ul li a {
 }
 
 h1{
-    text-align: center;
-    text-justify: newspaper;
+    text-align: center, justify;
 }
 
 h2{
-    text-align: center;
-    text-justify: newspaper
+    text-align: center, justify;
 }
+
 p{
-    text-align: center;
-    text-justify: newspaper
+    text-align: center, justify;
 }
 
