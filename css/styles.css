@@ -1,19 +1,25 @@
 img{
     width: 240px;
     height: 160px;
-    float: left;
-    
+    float: left;    
 }
 
-.footer {
+.row {
     position: fixed;
     left: 0;
+    right: 0;
     bottom: 0;
-    width: 100%;
+    width: 101%;
     background-color: coral;
+    font-size: 20px;
+}
+
+body{
+    height: 100%;
+    width: 100%;
     text-align: center;
     font-size: 30px;
-  }
+}
 
 
 
