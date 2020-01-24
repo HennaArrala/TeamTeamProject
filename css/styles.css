@@ -1,7 +1,6 @@
 img{
-    width: 240px;
-    height: 160px;
-    float: left;    
+    width: 200px;
+    height: 70px;   
 }
 
 footer{
@@ -23,6 +22,55 @@ body{
     width: 100%;
     text-align: center;
     font-size: 30px;
+}
+
+.price-container{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    margin-bottom: 3rem;
+    margin-top: 30px;
+}
+
+.price-box{
+    width: 400px;
+    height: 500px;
+    border: 1px solid darkgrey;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3{
+    font-family: monospace;
+    color: lightslategrey;
+    font-size: 40px;
+}
+
+.p-container{
+    width: 100%;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 400px;
+}
+
+.p-box{
+    width: 50%;
+    height: inherit;
+    border: 1px solid darkgrey;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
