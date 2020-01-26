@@ -1,0 +1,88 @@
+body{
+    font-size: 15px/1.5;
+    font-family: "oxygen";
+    padding: 0;
+    margin: 0;
+    background-color: #f7f5f1;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+
+header{
+    background-color: orangered;
+    color: #f7f5f1;
+    padding: 5px 0;
+    min-height: 70px;
+    border-bottom: orange 5px solid;
+}
+
+#branding img{          /*id = branding*/
+    display: block;
+    float: left;
+    padding: 0px;
+    margin: 0px 10px 0px 10px;
+    height: 50px;
+}
+
+#branding h1{
+    margin: 0px;
+    font-family: "Ubuntu";
+}
+
+header a{
+    color: white;
+    text-decoration: none; /*linkkien alaviiva pois*/
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+
+header li{
+    display: inline;
+    padding: 0 20px; /*ylös ja alas 0, 20px sivuille*/
+}
+
+header nav{
+    float: right;
+    margin: 15px;
+}
+
+header #branding{
+    float: left;
+}
+
+/* Showcase */
+
+#showcase{
+    min-height: 400px;
+    background-image: url("../images/kuva_tukisivu.jpg");
+    text-align: left;
+    text-transform: uppercase;
+    color:rgb(83, 82, 82);
+}
+
+#showcase h1{
+    font-size: 60px;
+    margin-top: 100px;
+    padding: 3%;
+    font-family: "ubuntu";
+}
+
+#showcase p{
+    font-size: 26px;
+    padding: 3%;
+    font-family: "oxygen";
+    overflow: hidden;
+}

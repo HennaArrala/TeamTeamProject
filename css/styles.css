@@ -82,7 +82,7 @@ h3{
 
 header{
     background-color:orangered;
-    height: 500px;
+    height: 300px;
     background-position: center;
 }
 
@@ -103,15 +103,4 @@ ul li a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1{
-    text-align: center, justify;
-}
-
-h2{
-    text-align: center, justify;
-}
-
-p{
-    text-align: center, justify;
-}
 
