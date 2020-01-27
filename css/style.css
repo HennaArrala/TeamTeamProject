@@ -79,6 +79,7 @@ header #branding{
 #showcase{
     min-height: 400px;
     background-image: url("../images/kuva_tukisivu.jpg");
+    background-size: cover;
     text-align: left;
     text-transform: uppercase;
     color:rgb(83, 82, 82);
@@ -92,6 +93,30 @@ header #branding{
 }
 
 #showcase p{
+    font-size: 26px;
+    padding: 3%;
+    font-family: "poppins";
+    text-transform: none;
+}
+
+#showcaseProd{
+    min-height: 400px;
+    background-image: url("../images/Prod.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    text-transform: uppercase;
+    color:rgb(83, 82, 82);
+}
+
+#showcaseProd h1{
+    font-size: 4em;
+    margin-top: 100px;
+    margin-left: 3%;
+    font-family: "poppins";
+}
+
+#showcaseProd p{
     font-size: 26px;
     padding: 3%;
     font-family: "poppins";
