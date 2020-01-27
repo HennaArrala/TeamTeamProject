@@ -34,7 +34,7 @@ header{
     color: #f7f5f1;
     padding: 5px 0;
     min-height: 70px;
-    border-bottom: orange 5px solid;
+    border-bottom: rgb(252, 174, 57) 5px solid;
 }
 
 #branding img{          /*id = branding*/
@@ -43,7 +43,7 @@ header{
     padding: 0px;
     margin: 0px 10px 0px 10px;
     height: 50px;
-    font-size: 20px;
+    font-size: 3em;
 }
 
 #branding h1{
@@ -66,7 +66,7 @@ header li{
 }
 
 header nav{
-    float: right;
+    float: left;
     margin: 15px;
 }
 
@@ -77,11 +77,11 @@ header #branding{
 /* Showcase */
 
 #showcase{
-    min-height: 400px;
+    min-height: 500px;
     background-image: url("../images/kuva_tukisivu.jpg");
     text-align: left;
     text-transform: uppercase;
-    color:rgb(83, 82, 82);
+    color:rgb(65, 65, 65);
 }
 
 #showcase h1{
@@ -108,8 +108,59 @@ header #branding{
 }
 
 #main-col h2{
-    font-size: 1.5em;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
+
+#main-col p{
+    font-size: 1.1em;
+    margin-top: 10px;
+
+}
+
+/*TUKI-sivun collapse*/
+.collapsible {
+    background-color: rgb(131, 126, 122);
+    color: white;
+    cursor: pointer;
+    padding: 28px;
+    width: 100%;
+    border: 2px white solid;
+    text-align: left;
+    outline: none;
+    font-size: 1.1em;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: rgb(250, 126, 81);
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}  
+
+.active:after{
+    content:'\2212';
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
 
 #main li{
     list-style-type: none;
