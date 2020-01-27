@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-box;             /*KUVAT: https://www.piqsels.com/en/search?q=using+phone */
 }
 
 body{
@@ -16,7 +16,7 @@ ul{
 }
 
 .container{
-    width: 95%;
+    width: 98%;
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
@@ -48,7 +48,7 @@ header{
 
 #branding h1{
     margin: 0px;
-    font-family: "Ubuntu";
+    font-family: "poppins";
     
 }
 
@@ -85,17 +85,17 @@ header #branding{
 }
 
 #showcase h1{
-    font-size: 60px;
+    font-size: 4em;
     margin-top: 100px;
-    padding: 3%;
-    font-family: "ubuntu";
+    margin-left: 3%;
+    font-family: "poppins";
 }
 
 #showcase p{
     font-size: 26px;
     padding: 3%;
-    font-family: "oxygen";
-    overflow: hidden;
+    font-family: "poppins";
+    text-transform: none;
 }
 
 /*Main*/
@@ -124,6 +124,10 @@ header #branding{
 
 #sidebar h3{
     font-size: 1.5em;
+}
+
+#sidebar img {
+    max-width: 100%;
 }
 
 .dark{
@@ -156,6 +160,50 @@ header #branding{
     font-size: 1.1em;
 }
 
+/*Boxes* - Juuso*/
+
+.price-container{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    margin-bottom: 3rem;
+    margin-top: 30px;
+}
+
+.price-box{
+    width: 400px;
+    height: 500px;
+    border: 1px solid darkgrey;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p-container{
+    width: 100%;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 400px;
+}
+
+.p-box{
+    width: 50%;
+    height: inherit;
+    border: 1px solid darkgrey;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 /*Newsletter*/
 
@@ -249,5 +297,8 @@ header #branding{
      }
      #showcase h1{
          font-size: 1.5em;
+     }
+     #showcase p{
+         font-size: 1em;
      }
 }
