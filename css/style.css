@@ -93,7 +93,7 @@ header #branding{
 }
 
 #showcase p{
-    font-size: 26px;
+    font-size: 30px;
     padding: 3%;
     font-family: "poppins";
     text-transform: none;
@@ -101,12 +101,12 @@ header #branding{
 
 #showcaseProd{
     min-height: 400px;
-    background-image: url("../images/Prod.jpg");
+    background-image: url("../images/sim2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;
     text-transform: uppercase;
-    color:rgb(83, 82, 82);
+    color:rgb(29, 29, 29);
 }
 
 #showcaseProd h1{
@@ -117,10 +117,11 @@ header #branding{
 }
 
 #showcaseProd p{
-    font-size: 26px;
+    font-size: 40px;
     padding: 3%;
     font-family: "poppins";
     text-transform: none;
+    color: rgb(29, 29, 29);
 }
 
 #showcaseyht{
@@ -280,6 +281,7 @@ header #branding{
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1)
 }
 
 .p-container{
@@ -337,6 +339,186 @@ header #branding{
     height: 40px;
     border: 0;
     font-size: 1.1em;
+}
+
+.price-box img{
+    width: 200px;
+    height: 70px;   
+}
+
+footer{
+    display: block;
+    position: relative;
+    height: 250px;
+}
+
+.row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 101%;
+    background-color: orangered;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.price-container{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    margin-bottom: 3rem;
+    margin-top: 30px;
+}
+
+.price-box{
+    width: 400px;
+    height: 500px;
+    border: 1px solid darkgrey;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3{
+    font-family: "poppins";
+    color: rgb(65, 65, 65);
+    font-size: 40px;
+}
+
+h4{
+    font-family: "poppins";
+    color: white;
+    font-size: 30px;
+}
+
+.orderbtn{
+    border: 1px solid rgb(17, 17, 17);
+    width: 40%;
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    background-color: orangered;
+    border-radius: 4px;
+    font-family: "poppins";
+
+}
+
+h4:link {
+    color: white;
+    font-family: "poppins";
+}
+  
+h4:hover {
+    color: rgb(17, 17, 17);
+    font-family: "poppins";
+}
+
+.p-container{
+    width: 100%;
+    margin: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 400px;
+    
+}
+
+.p-box{
+    width: 60%;
+    height: inherit;
+    border: 1px solid darkgrey;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#main-col h1 {
+    font-size: 1.5em;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    line-height: 1.5em;
+    padding: 15px;
+}
+
+#sidebar h3 {
+    font-size: 1.3em;
+}
+
+#sidebar img {
+    max-width: 100%;
+}
+
+.message input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 4px;
+    font-size: 1.1em;
+}
+
+.message textarea {
+    font-family: 'lato', sans-serif;
+    padding: 4px;
+    width: 100%;
+    height: 10em;
+    font-size: 1.1em;
+}
+
+
+
+/* Services */
+#projects li {
+    list-style-type: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    background-color: #e6e6e6;
+    margin-bottom: 10px;
 }
 
 /* HUOM! Alla olevat säädöt koskevat ainoastaan mobiililaitteilla käyttöä ja ruudun pienentyessä alle 768px:n */

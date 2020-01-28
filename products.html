@@ -16,24 +16,25 @@
      crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Oxygen|Poppins|Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
     <link rel="stylesheet" type="text/css" href="css/style.css">
     
 </head>
 <body>
     <header>
-        <div class='main'>
-            <ul>
-                <logo>
-                    <img src="images/Lolmeme1.png">
-                </logo>
-                <li><a href="products.html" >Tuotteet</a></li>
-                <li><a href="tuki.html" >Tuki</a></li>
-                <li><a href="#" >Asiakaspalvelu</a></li>
-                <li><a href="yhteystiedot.html" >Yhteystiedot</a></li>
-            </ul>
+        <div class="container">
+            <div id="branding">
+                <h1><img src="images/Lolmeme.png" alt="Logo"><a href="index.html">LOL</h1>
+                </div>
+            <nav>
+                <ul>
+                    <li><a href="products.html" >Tuotteet</a></li>
+                    <li><a href="tuki.html" class="highlight" >Tuki</a></li>
+                    <li><a href="yhteystiedot.html">Asiakaspalvelu</a></li>
+                </ul>
+            </nav>
         </div>
-    </header>
+        </header>
 
     <section id ="showcaseProd">
         <div class="container"></div>
@@ -45,16 +46,25 @@
 
     <div class="price-container">
         <div class="price-box">
-            <h3>Kympin LOL</h3>
+            <h3>KYMPIN LOL</h3>
             <img src="images/Price1.png">
+                <div class="orderbtn">
+                    <h4>Tilaa</h4>
+                </div>
         </div>
         <div class="price-box">
             <h3>OMG</h3>
             <img src="images/Price2.png">
+                <div class="orderbtn">
+                    <h4>Tilaa</h4>
+                </div>
         </div>
         <div class="price-box">
             <h3>OMEGALUL</h3>
             <img src="images/Price3.png">
+                <div class="orderbtn">
+                    <h4>Tilaa</h4>
+                </div>
         </div>
     </div>
     <br>
@@ -70,38 +80,35 @@
                Johan siinä on perherauha vaarassa kun kaikkia kiukuttaa.</p>
         </div>                                     
     </div>
-    
-        <!--FOOTER-->
-        <div class="footer">
-            <div class="container fluid-padding">
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <p><u>LOL Pääkonttori</u></p>
-                        <p>Opiskelijoidenkuja 3C</p>
-                        <p>14580</p>
-                        <p>Hämeenlinna</p>
-                    </div>
-                    <div class="col-md-4">
-                        <p><u>Ota yhteyttä</u></p>
-                        <p>Puh. 0601234567</p>
-                        <p>Puhelinpalvelu 24/7</p>
-                        <p>Myymälä arkisin klo 9-17</p>
-                    </div>
-                    <div class="col-md-4">
-                        <p><u>Seuraa meitä</u></p>
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                    </div>
-                    <div class="col-md-12">
-                        <hr class="light">
-                        <p>&copy;TeamTeam</p>
-                    </div>
-                </div>
+      
+</body>
+<!--FOOTER-->
+<footer>
+    <div class="f-container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                    <p><u>LOL Pääkonttori</u></p>
+                    <p>Opiskelijoidenkuja 3C</p>
+                    <p>14580</p>
+                    <p>Hämeenlinna</p>
+            </div>
+            <div class="col-md-4">
+                    <p><u>Ota yhteyttä</u></p>
+                    <p>Puh. 0601234567</p>
+                    <p>Puhelinpalvelu 24/7</p>
+                    <p>Myymälä arkisin klo 9-17</p>
+            </div>
+            <div class="col-md-4">
+                    <p><u>Seuraa meitä</u></p>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+            </div>
+            <div class="col-md-12">
+                    <hr class="light">
+                    <p>&copy;TeamTeam</p>
             </div>
         </div>
-          
-      </div>
-    
-</body>
+    </div>
+</footer>
 </html>
