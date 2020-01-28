@@ -12,7 +12,8 @@ body{
 
 ul{
     padding: 0;
-    margin-bottom: 400px;
+    margin: 0;
+    float: right;
     list-style-type: none;
 }
 
@@ -35,7 +36,6 @@ ul li {
     margin: auto;
     overflow: hidden;
     
-    
 }
 
 .highlight{
@@ -49,7 +49,6 @@ ul li {
         height: 100%;
         float: center;
         text-align: center;
-        
      
 }
 
@@ -72,8 +71,12 @@ header{
     color: #f7f5f1;
     padding: 5px 0;
     min-height: 70px;
-    max-height: 300px;
     
+}
+
+.logo{
+float: left;
+
 }
 
 #branding img{          /*id = branding*/
@@ -370,10 +373,6 @@ header #branding{
     padding-bottom: 30px;
 }
 
-/*Boxes - Riku*/
-
-
-
 /*Newsletter*/
 
 #newsletter{
@@ -418,8 +417,6 @@ footer{
     display: block;
     position: relative;
     height: 250px;
-    padding-top: 10px;
-    margin-top: 10px;
 }
 
 .row {
@@ -583,7 +580,7 @@ h4:hover {
 
 
 /* Services */
-#services li {
+#projects li {
     list-style-type: none;
     padding: 20px;
     border: #cccccc solid 1px;
