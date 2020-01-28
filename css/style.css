@@ -152,7 +152,7 @@ header #branding{
     background-size: cover;
     text-align: left;
     text-transform: uppercase;
-    color:rgb(65, 65, 65);
+    color:rgb(53, 53, 53);
 }
 
 #showcase h1{
@@ -608,7 +608,7 @@ h4:hover {
 
 
 /* Services */
-#projects li {
+#services li {
     list-style-type: none;
     padding: 20px;
     border: #cccccc solid 1px;
