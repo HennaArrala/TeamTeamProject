@@ -34,7 +34,12 @@ ul li {
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+    
+    
+>>>>>>> 00b573d447647da6277435eacdeafe314b2c0198
 }
 
 .highlight{
