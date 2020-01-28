@@ -135,6 +135,28 @@ header #branding{
     text-transform: none;
 }
 
+#showcaseIndex{
+    min-height: 400px;
+    background-image: url("../images/phone-telephone-old-yellow.jpg");
+    background-size: cover;
+    text-align: left;
+    text-transform: uppercase;
+    color:rgb(255 ,255 ,255);
+
+}
+#showcaseIndex h1{
+    font-size: 4em;
+    margin-top: 50px;
+    margin-left: 3%;
+    font-family: "poppins";
+}
+#showcaseIndex p{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 3%;
+    font-family: "poppins";
+}
+
 #showcaseProd{
     min-height: 400px;
     background-image: url("../images/sim2.jpg");
@@ -396,7 +418,7 @@ footer{
     right: 0;
     bottom: 0;
     width: 101%;
-    background-color: orangered;
+    background-color: rgb(255, 153, 0);
     padding-top: 20px;
     font-size: 20px;
 }
