@@ -82,7 +82,7 @@ header #branding{
     background-size: cover;
     text-align: left;
     text-transform: uppercase;
-    color:rgb(65, 65, 65);
+    color:rgb(53, 53, 53);
 }
 
 #showcase h1{
@@ -100,7 +100,7 @@ header #branding{
 }
 
 #showcaseProd{
-    min-height: 400px;
+    min-height: 500px;
     background-image: url("../images/Prod.jpg");
     background-repeat: no-repeat;
     background-size: cover;
