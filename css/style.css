@@ -42,22 +42,22 @@ ul li {
     font-weight: bold;
 }
 
-.image-container{
-    width: 70%;
-    height: 100%;
-    margin-left: 15%;
-    margin-bottom: 3rem;
-    margin-top: 30px;
-    
+
+#imagebox {
+        width: 100%;
+        height: 100%;
+        float: center;
+        text-align: center;
+     
 }
 
-.imagebox img{
-        width: 300px;
-        height: 300px;
-        border: 1px solid darkgrey;
-        display: inline-block;
+#imagebox img{
+    max-width: 300px;
+    max-height: 300px;
+    
+    border: 3px solid rgb(255, 153, 0);
+        display: flexbox;
         margin: 10px;
-        text-align: center;
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 30px;
@@ -66,7 +66,7 @@ ul li {
 /* Header */
 
 header{
-    background-color: orangered;
+    background-color: rgb(255, 153, 0);
     color: #f7f5f1;
     padding: 5px 0;
     min-height: 70px;
@@ -203,6 +203,8 @@ header #branding{
 
 }
 
+
+
 /*TUKI-sivun collapse*/
 .collapsible {
     background-color: rgb(131, 126, 122);
@@ -266,7 +268,7 @@ header #branding{
 }
 
 .dark{
-    background-color: slategray;
+    background-color: rgb(255, 153, 0);
     padding: 15px;
     color: white;
 }
