@@ -56,12 +56,13 @@ header{
     min-height: 70px;
     position: fixed;
     width: 100%;
+    margin-bottom: 20px;
     
 }
 
 .logo{
 float: left;
-padding: 20px;
+margin: 10px;
 
 }
 
@@ -153,6 +154,7 @@ header #branding{
     text-align: left;
     text-transform: uppercase;
     color:rgb(53, 53, 53);
+    
 }
 
 #showcase h1{
@@ -176,6 +178,7 @@ header #branding{
     text-align: left;
     text-transform: uppercase;
     color:rgb(255 ,255 ,255);
+    
 
 }
 #showcaseIndex h1{
