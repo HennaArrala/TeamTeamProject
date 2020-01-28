@@ -123,6 +123,29 @@ header #branding{
     text-transform: none;
 }
 
+#showcaseyht{
+    min-height: 400px;
+    background-image: url("../images/yhteystd.jpg");
+    background-size: cover;
+    text-align: left;
+    text-transform: uppercase;
+    color:rgb(255 ,255 ,255);
+}
+
+#showcaseyht h1{
+    font-size: 4em;
+    margin-top: 100px;
+    margin-left: 3%;
+    font-family: "poppins";
+}
+
+#showcaseyht p{
+    font-size: 26px;
+    padding: 3%;
+    font-family: "poppins";
+    text-transform: none;
+}
+
 /*Main*/
 
 #main-col{
