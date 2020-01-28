@@ -11,7 +11,6 @@ body{
 }
 
 
-    
 
 .container{
     width: 98%;
@@ -27,26 +26,7 @@ body{
 }
 
 
-#imagebox {
-        width: 100%;
-        height: 100%;
-        float: center;
-        text-align: center;
-     
-}
 
-#imagebox img{
-    max-width: 300px;
-    max-height: 300px;
-    
-    border: 3px solid rgb(255, 153, 0);
-        display: flexbox;
-        margin: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-}
 /* Header */
 
 header{
@@ -618,6 +598,30 @@ h4:hover {
     background-color: #e6e6e6;
     margin-bottom: 10px;
 }
+
+/* Index-page imageboxes */
+#imagebox {
+    width: 100%;
+    height: 100%;
+    float: center;
+    text-align: center;
+ 
+}
+
+#imagebox img{
+max-width: 300px;
+max-height: 300px;
+
+border: 3px solid rgb(255, 153, 0);
+    display: flexbox;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
 
 /* HUOM! Alla olevat säädöt koskevat ainoastaan mobiililaitteilla käyttöä ja ruudun pienentyessä alle 768px:n */
 
