@@ -164,13 +164,8 @@ header #branding{
 }
 
 #showcaseProd{
-<<<<<<< HEAD
-    min-height: 500px;
-    background-image: url("../images/Prod.jpg");
-=======
     min-height: 400px;
     background-image: url("../images/sim2.jpg");
->>>>>>> bbdb4e2fdfc49d3c38c405bead8b0f4a8a58a782
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;
