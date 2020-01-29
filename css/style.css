@@ -19,234 +19,191 @@ body{
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
-    text-align: center;
+    /* text-align: center; */
     
 }
 
 .highlight{
-    color: rgb(216, 204, 190);
     font-weight: bold;
 }
 
+/* Navbar */
 
-
-/* Header */
-
-header{
-    background-color: rgb(255, 153, 0);
-    color: #f7f5f1;
-    padding: 10px 0;
-    min-height: 70px;
-    position: fixed;
-    width: 100%;
-    margin-bottom: 20px;
-    
+.navbar-brand{
+    margin: 0;
+    display: flex;
+    align-content: space-around;
 }
 
 .logo{
-float: left;
-margin: 10px;
-
-}
-
-nav ul{
-    padding: 0;
-    margin: 0;
-    float: right;
-    list-style-type: none;
-}
-
-nav li {
-    display: inline-block;
-    margin-left: 50px;
-    
-    }
-    
-nav a {
-        text-decoration: none;
-        color: white;
-        padding: 5px 20px;
-        border: 3px white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    nav a:hover{
-        color:black;
-        text-decoration-line: overline;
-        
-    }
-
-
-
-ul li {
-        display: inline-block;
-        
-        }
-
-ul li a {
-            text-decoration: none;
-            color: white;
-            padding: 5px 20px;
-            border: 10px white;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#branding img{          /*id = branding*/
-    display: block;
-    float: left;
-    padding: 0px;
-    margin: 0px 10px 0px 10px;
-    height: 50px;
-    font-size: 3em;
-}
-
-#branding h1{
-    margin: 0px;
-    font-family: "poppins";
-    
-}
-
-header a{
-    color: white;
-    text-decoration: none; /*linkkien alaviiva pois*/
-    text-transform: uppercase;
-    font-size: 18px;
-
-}
-
-header li{
-    display: inline;
-    padding: 0 20px; /*ylös ja alas 0, 20px sivuille*/
-}
-
-header nav{
-    float: left;
-    margin: 15px;
-}
-
-header #branding{
+    height: 60px;
+    width: 60px;
+    order: 1;
     float: left;
 }
 
-/* Showcase */
+nav a{
+    font-size: 1em;
+    margin-left: 100px;
+}
 
-#showcase{
-    min-height: 500px;
+
+/* Header */
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#showcaseTuki{
+    height: 550px;
     background-image: url("../images/kuva_tukisivu.jpg");
     background-size: cover;
     text-align: left;
     text-transform: uppercase;
     color:rgb(53, 53, 53);
-    
+    display: flex;
 }
 
-#showcase h1{
-    font-size: 4em;
-    margin-top: 100px;
+#showcaseTuki h1{
+    font-size: 2.5em;
+    margin-top: 180px;
     margin-left: 3%;
+    width: 40%;
+    align-items: center;
     font-family: "poppins";
 }
 
-#showcase p{
-    font-size: 30px;
+#showcaseTuki p{
+    font-size: 1em;
     padding: 3%;
-    font-family: "poppins";
+    width: 100%;
+    text-shadow: 0 0 3px rgb(192, 192, 192);
     text-transform: none;
+    align-items: flex-end;
+    font-family: "poppins";
 }
 
 #showcaseIndex{
-    min-height: 400px;
+    height: 550px;
     background-image: url("../images/phone-telephone-old-yellow.jpg");
     background-size: cover;
     text-align: left;
     text-transform: uppercase;
     color:rgb(255 ,255 ,255);
-    
+    display: flex;
 
 }
+
 #showcaseIndex h1{
-    font-size: 4em;
-    margin-top: 50px;
+    font-size: 5em;
+    margin-top: 180px;
     margin-left: 3%;
+    width: 40%;
+    align-items: center;
     font-family: "poppins";
 }
 #showcaseIndex p{
-    font-size: 2em;
-    margin-top: 10px;
-    margin-left: 3%;
+    font-size: 1em;
+    padding: 3%;
+    width: 100%;
+    text-shadow: 0 0 3px rgb(192, 192, 192);
+    text-transform: none;
+    align-items: flex-end;
     font-family: "poppins";
 }
 
 #showcaseProd{
-    min-height: 400px;
-    background-image: url("../images/sim2.jpg");
-    background-repeat: no-repeat;
+    min-height: 550px;
+    background-image: url("../images/sim.jpg");
     background-size: cover;
     text-align: left;
     text-transform: uppercase;
+    display: flex;
     color:rgb(29, 29, 29);
 }
 
 #showcaseProd h1{
-    font-size: 4em;
-    margin-top: 100px;
+    font-size: 2.5em;
+    margin-top: 180px;
     margin-left: 3%;
+    width: 40%;
+    align-items: center;
     font-family: "poppins";
 }
 
 #showcaseProd p{
-    font-size: 40px;
+    font-size: 1em;
     padding: 3%;
-    font-family: "poppins";
+    width: 100%;
+    text-shadow: 0 0 3px rgb(192, 192, 192);
     text-transform: none;
+    align-items: flex-end;
+    font-family: "poppins";
     color: rgb(29, 29, 29);
 }
 
 #showcaseyht{
-    min-height: 400px;
+    min-height: 550px;
     background-image: url("../images/yhteystd.jpg");
     background-size: cover;
     text-align: left;
     text-transform: uppercase;
+    display: flex;
     color:rgb(255 ,255 ,255);
 }
 
 #showcaseyht h1{
-    font-size: 4em;
-    margin-top: 100px;
+    font-size: 2.5em;
+    margin-top: 180px;
     margin-left: 3%;
+    width: 40%;
+    align-items: center;
     font-family: "poppins";
 }
 
 #showcaseyht p{
-    font-size: 26px;
+    font-size: 1em;
     padding: 3%;
-    font-family: "poppins";
+    width: 100%;
+    text-shadow: 0 0 3px rgb(192, 192, 192);
     text-transform: none;
+    align-items: flex-end;
+    font-family: "poppins";
 }
 
 /*Main*/
 
 #main-col{
-    float: left;
-    width: 65%;
+    /* width: 65%; */
     line-height: 1.5em;
     padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #main-col h2{
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
-    padding-bottom: 10px;
+    margin-right: 15px;
+    flex: 1;
+    flex-basis: 45%;
+    justify-content: flex-start;
 }
 
 #main-col p{
-    font-size: 1.1em;
-    margin-top: 10px;
+    font-size: 0.8em;
+    margin-top: 35px;
+    margin-left: 15px;
+    flex: 1;
+    flex-basis: 40%;
+    text-align: left;
+    justify-content: flex-end;
 }
 
 
-/*TUKI-sivun collapse*/
+/*collapse*/
 .collapsible {
     background-color: rgb(131, 126, 122);
     color: white;
@@ -259,10 +216,11 @@ header #branding{
     font-size: 1.1em;
   }
   
+
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.activecollapse, .collapsible:hover {
     background-color: rgb(250, 126, 81);
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     color: white;
   }

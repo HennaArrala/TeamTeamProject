@@ -9,13 +9,39 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Oxygen|Poppins|Raleway&display=swap" rel="stylesheet">
-    <!--link rel="stylesheet" href="css/styles.css"-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-    <div class="container">
+
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #f77103">
+        <a class="navbar-brand" href="index.html">
+            <img alt="logo" src="images/Lolmeme.png"  class = "logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Tuotteet</a>
+            </li>
+            <li class="nav-item highlight">
+              <a class="nav-link" href="tuki.html">Tuki<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="yhteystiedot.html">Yhteystiedot</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+
+    <!--header>
+    <div class="container-fluid">
         <div id="branding">
             <h1><img src="images/Lolmeme.png" alt="Logo"><a href="index.html">LOL</h1>
             </div>
@@ -27,16 +53,16 @@
             </ul>
         </nav>
     </div>
-    </header>
+    </header-->
 
-    <section id ="showcase">
-        <div class="container"></div>
+    <!--Header-->
+    <header id ="showcaseTuki">
             <h1>Puhelinliittymien tuki</h1>
             <p>Haluatko aktivoida uuden liittymäsi tai onko PUK-koodi hukassa? Tutustu ohjeisiin.</p>
-            <!--tähän kuva tai kuvakaruselli-->
-        </div>
-    </section>
+            <!--kuva tai kuvakaruselli-->
+    </header>
 
+    <!--Article-->
     <section id="main">
         <div class="container">
             <article id="main-col">
@@ -46,7 +72,7 @@
         </div>
     </section> 
 
-    <section id="main">
+    <!--section id="main">
         <div class="container">
             <aside id="sidebar">
                 <div class="dark">
@@ -65,14 +91,14 @@
                                 <label for="email">Sähköposti</label><br>
                                 <input type="text" placeholder="Sähköpostiosoitteesi...">
                             </div>
-                            <div>
+                            <div>-->
                                 <!-- <label for="viesti">Viesti</label><br> -->
-                                <textarea rows="3" placeholder="Viestisi..."></textarea>
+                                <!--textarea rows="3" placeholder="Viestisi..."></!--textarea>
                             </div>
                             <button>Lähetä</button>
                         </form>
                     </div>
-                </aside>
+                </aside-->
 
             <article id="main-col">
                 <p>LOL-liittymä</p>
@@ -127,7 +153,7 @@
                 </div>
             </article>
         </div>     
-    </section>        
+    </!--section>        
 
     <section id="video">
         <div class="container">
@@ -153,7 +179,7 @@
         
         for (i = 0; i < coll.length; i++) {
           coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
+            this.classList.toggle("activecollapse");
             var content = this.nextElementSibling;
             if (content.style.maxHeight){
               content.style.maxHeight = null;
@@ -162,7 +188,13 @@
             } 
           });
         }
-        </script>
+    </script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+    
+    
 </body>
 <!--FOOTER-->
 <footer>
