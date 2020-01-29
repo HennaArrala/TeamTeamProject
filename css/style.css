@@ -35,10 +35,50 @@ body{
     align-content: space-around;
 }
 
+<<<<<<< HEAD
 .logo{
     height: 60px;
     width: 60px;
     order: 1;
+=======
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    
+    }
+    
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 3px white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover{
+     color:black;
+    text-decoration-line: overline;
+        
+}
+
+
+
+ul li {
+    display: inline-block;
+        
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 10px white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#branding img{          /*id = branding*/
+    display: block;
+>>>>>>> e6d31a94a3f1d124274f4dcc802d40d40f3c0f41
     float: left;
 }
 
@@ -322,11 +362,27 @@ header{
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1)
 }
 
+.price-box-moose{
+    width: 50%;
+    min-width: 400px;
+    height: 100%;
+    border: 1px solid darkgrey;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    padding: 1.0rem 2.0rem 0.5rem;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1)
+}
+
 .price-box img{
     width: 200px;
     height: 70px;   
 }
 
+.price-box-moose img{
+    width: 200px;
+    height: 70px;
+}
 .p-container{
     width: 100%;
     margin: 10px;
@@ -337,7 +393,7 @@ header{
 }
 
 .p-box{
-    width: 60%;
+    width: 80%;
     height: inherit;
     border: 1px solid darkgrey;
     display: inline-block;
@@ -361,20 +417,36 @@ header{
     background-color: orangered;
     border-radius: 4px;
     font-family: "poppins";
-
 }
 
+.orderbtn-moose{
+    border: 1px solid rgb(17, 17, 17);
+    width: 40%;
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+    margin-top:20px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    background-color: orangered;
+    border-radius: 4px;
+    font-family: "poppins";
+}
+
+*{
+    box-sizing: border-box;
+}
 /*Newsletter*/
 
 #newsletter{
     background-color: gray;
     color: white;
-    padding: 15px 0;
+    padding: 28px 0;
 }
 
 #newsletter h2{
     float: left;
     width: 50%;
+    
 }
 
 #newsletter form{
@@ -394,7 +466,7 @@ header{
     width: 35%;
     min-width: 100px;
     background-color: rosybrown;
-    height: 40px;
+    height: 50px;
     border: 0;
     font-size: 1.1em;
 }
@@ -433,7 +505,7 @@ h4:hover {
 }
 
 #sidebar h3 {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 #sidebar img {
@@ -445,7 +517,7 @@ h4:hover {
     height: 40px;
     margin-bottom: 15px;
     padding: 4px;
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
 
 .message textarea {
@@ -453,7 +525,7 @@ h4:hover {
     padding: 4px;
     width: 100%;
     height: 10em;
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
 
 
@@ -473,6 +545,7 @@ h4:hover {
     height: 100%;
     float: center;
     text-align: center;
+    padding-bottom: 600px;
  
 }
 
@@ -594,4 +667,5 @@ footer{
      #showcase p{
          font-size: 1em;
      }
+     
 }

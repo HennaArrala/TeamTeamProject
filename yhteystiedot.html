@@ -49,17 +49,33 @@
         <div class="container">
             <article id="main-col">
                 <ul id="services">
+                    <button class="collapsible">Asiakaspalvelun hinnat</button>
+                    <div class="content">
+                        <p>
+                            Soittaminen ja jonottaminen LOL Asiakaspalveluun 060 123 4567 maksaa 12e/min.
+                            LOL:n lankapuhelinliittymistä asiakaspalveluun soittaminen on erittäin kallista.
+                            Ulkomailta soitettaessa veloitetaan puheluista ulkomaan hinnaston mukaisesti.
+                            Asiakaspalvelun parantamiseksi ja laadun tarkkailua varten nauhoitamme puhelut.
+                            LOL Oyj tiedustelee kuluttaja-asiakkaittensa tyytyväisyyttä saamaansa puhelinasiakaspalveluun lähettämällä osalle asiakaspalveluun yhteydessä olleille asiakkaille laskuja muuten vaan.
+                            Vikapäivystykseen soittaminen maksaa 60e/min</p>  
+
+                        <p>Vastausajat on keskimäärin 2-3h.</p>  
+
+                        <p>Käsittelemme viestit saapumisjärjestyksessä, arvioitu käsittelyaika on noin 20-30 työpäivää. Viestin saatuamme, yritämme tavoittaa sinua puhelimitse numerosta 060 123 4567. Kiireellisissä asioissa soita asiakaspalveluumme 060 123 4567.</p>     
+                        </div>
                     <li>
-                        <h3>Asiakaspalvelu</h3> <br>
-                        <p>Avoinna ma-pe klo 8-8.30.<br>Ajanvarauksella pe klo 18-20.<br>Häiriöilmoitukset ja PUK-koodikyselyt 24 h. Häiriötilanteissa soitathan laitteiden viereltä</p>
+                        <h3>Asiakaspalvelu</h3>
+                        <h3>060 123 4567</h3> <br>
+                        <p>Avoinna ma-pe klo 8-8.30.<br>Ajanvarauksella pe klo 18-20.<br>Häiriöilmoitukset ja PUK-koodikyselyt 24h. Häiriötilanteissa soitathan laitteiden viereltä</p>
                     </li>
                     <li>
-                        <h3>Vikapäivystys</h3> <br>
+                        <h3>Vikapäivystys</h3>
+                        <h3>060 123 4567</h3> <br>
                         <p>Vika- ja katveilmoituksien numero on maksuton kotimaasta soittaessa</p>
                     </li>
                     <li>
                         <h3>Kartta</h3> <br>
-                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7741.378771108171!2d24.458902297264732!3d60.98288347339908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468e5d839984ebad%3A0xccd9082e059743f7!2sVirveli%2C%2013100%20H%C3%A4meenlinna!5e0!3m2!1sfi!2sfi!4v1580213246354!5m2!1sfi!2sfi" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7741.378771108171!2d24.458902297264732!3d60.98288347339908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468e5d839984ebad%3A0xccd9082e059743f7!2sVirveli%2C%2013100%20H%C3%A4meenlinna!5e0!3m2!1sfi!2sfi!4v1580213246354!5m2!1sfi!2sfi" width="618" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
                     </li>
                 </ul>
             </article>
@@ -69,7 +85,7 @@
                     <form class="message">
                         <div>
                             <label for="nimi">Nimi</label>
-                            <input type="text" placeholder="nimesi...">
+                            <input type="text" placeholder="Nimesi...">
                         </div>
                         <div>
                             <label for="email">Sähköposti</label>
@@ -90,12 +106,28 @@
             <h2>Tilaa uutiskirjeemme</h2>
             <form>
                 <input type="text" placeholder="Sähköpostiosoitteesi">
+                <button>Tilaa</button>
             </form>
-            <button>Tilaa</button>
         </div>
     </section>
        
     </div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+    </script>
 
 </body>
 <!--FOOTER-->
@@ -116,9 +148,9 @@
             </div>
             <div class="col-md-4">
                     <p><u>Seuraa meitä</u></p>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+                    <a href="https://twitter.com/?lang=fi" class="fa fa-twitter"></a>
             </div>
             <div class="col-md-12">
                     <hr class="light">
