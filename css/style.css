@@ -697,11 +697,15 @@ footer{
      }
 
      #showcaseTuki{
-         font-size: 20px;
+         font-size: 17px;
      }
 
      #showcaseyht{
          font-size: 20px;
+     }
+
+     #main-col h2{
+         font-size: 30px;
      }
      
 }
