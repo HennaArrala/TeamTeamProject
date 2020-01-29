@@ -8,15 +8,18 @@ body{
     padding: 0;
     margin: 0;
     background-color: #f7f5f1;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
 }
-
-
 
 .container{
     width: 98%;
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
+    text-align: center;
     
 }
 
@@ -240,9 +243,7 @@ header #branding{
 #main-col p{
     font-size: 1.1em;
     margin-top: 10px;
-
 }
-
 
 
 /*TUKI-sivun collapse*/
@@ -348,18 +349,24 @@ header #branding{
     margin-top: 30px;
 }
 
+.price-container p{
+    font-size: 13px;
+}
+
 .price-box{
     width: 400px;
-    height: 500px;
+    height: 600px;
     border: 1px solid darkgrey;
     display: inline-block;
     margin: 10px;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 1.5rem 2.0rem 0.5rem;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1)
+}
+
+.price-box img{
+    width: 200px;
+    height: 70px;   
 }
 
 .p-container{
@@ -372,7 +379,7 @@ header #branding{
 }
 
 .p-box{
-    width: 50%;
+    width: 60%;
     height: inherit;
     border: 1px solid darkgrey;
     display: inline-block;
@@ -382,6 +389,21 @@ header #branding{
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.orderbtn{
+    border: 1px solid rgb(17, 17, 17);
+    width: 40%;
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    background-color: orangered;
+    border-radius: 4px;
+    font-family: "poppins";
+
 }
 
 /*Newsletter*/
@@ -419,80 +441,6 @@ header #branding{
     font-size: 1.1em;
 }
 
-.price-box img{
-    width: 200px;
-    height: 70px;   
-}
-
-footer{
-    display: block;
-    position: relative;
-    height: 250px;
-}
-
-.row {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 101%;
-    background-color: rgb(255, 153, 0);
-    padding-top: 20px;
-    font-size: 20px;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 80px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-  
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-
-body{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-}
-
-.price-container{
-    width: 70%;
-    height: 100%;
-    margin-left: 15%;
-    margin-bottom: 3rem;
-    margin-top: 30px;
-}
-
-.price-container p{
-    font-size: 13px;
-}
-.price-box{
-    width: 400px;
-    height: 600px;
-    border: 1px solid darkgrey;
-    display: inline-block;
-    margin: 10px;
-    text-align: center;
-    padding: 1.5rem 2.0rem 0.5rem;
-}
-
 h3{
     font-family: "poppins";
     color: rgb(65, 65, 65);
@@ -505,20 +453,6 @@ h4{
     font-size: 30px;
 }
 
-.orderbtn{
-    border: 1px solid rgb(17, 17, 17);
-    width: 40%;
-    height: 35px;
-    text-align: center;
-    display: inline-block;
-    margin-top: 30px;
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-    background-color: orangered;
-    border-radius: 4px;
-    font-family: "poppins";
-
-}
-
 h4:link {
     color: white;
     font-family: "poppins";
@@ -527,30 +461,6 @@ h4:link {
 h4:hover {
     color: rgb(17, 17, 17);
     font-family: "poppins";
-}
-
-.p-container{
-    width: 100%;
-    margin: 10px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 30px;
-    padding-bottom: 400px;
-    
-}
-
-.p-box{
-    width: 60%;
-    height: inherit;
-    border: 1px solid darkgrey;
-    display: inline-block;
-    margin-top: 20px;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
 #main-col h1 {
@@ -609,10 +519,9 @@ h4:hover {
 }
 
 #imagebox img{
-max-width: 300px;
-max-height: 300px;
-
-border: 3px solid rgb(255, 153, 0);
+    max-width: 300px;
+    max-height: 300px;
+    border: 3px solid rgb(255, 153, 0);
     display: flexbox;
     margin: 10px;
     padding-left: 30px;
@@ -620,6 +529,49 @@ border: 3px solid rgb(255, 153, 0);
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/*FOOTER*/
+
+footer{
+    display: block;
+    position: relative;
+    height: 250px;
+}
+
+.row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 101%;
+    background-color: rgb(255, 153, 0);
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
 
 
 
