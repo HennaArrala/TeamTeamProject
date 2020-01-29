@@ -509,7 +509,7 @@ h4:hover {
 /* Services */
 #services li {
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
     border: #cccccc solid 1px;
     background-color: #e6e6e6;
     margin-bottom: 10px;
