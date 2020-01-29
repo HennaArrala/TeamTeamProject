@@ -219,7 +219,7 @@ header{
 }
 
 .dark{
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(255, 115, 0);
     padding: 15px;
     color: white;
     
@@ -520,7 +520,6 @@ h4:hover {
 
 iframe{
     margin-left: 20%;
-    margin-right: 40%;
 }
 
 /* Index-page imageboxes */
