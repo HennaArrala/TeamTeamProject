@@ -674,8 +674,8 @@ footer{
      }
 
      .price-container{
-         margin-left: 10px;
-         width: 50%;
+         margin-left: 0px;
+         max-width: 400px;
      }
 
      .p-box{
