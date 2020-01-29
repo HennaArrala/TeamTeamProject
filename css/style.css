@@ -269,7 +269,7 @@ header{
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
     font-size: 0.8em;
-  }
+}
 
 #main li{
     list-style-type: none;
@@ -280,7 +280,16 @@ header{
     text-align: left;
 }
 
+.video{
+    float: left;
+    width: 50%;
+    margin-bottom: 100px;
+}
 
+.video h2{
+    text-align: left;
+    font-size: 0.8em;
+}
 
 .message input{
     width: 100%;
