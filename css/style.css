@@ -420,6 +420,7 @@ header{
     background-color: gray;
     color: white;
     padding: 28px 0;
+    margin-top: 100px;
 }
 
 #newsletter h2{
@@ -431,6 +432,7 @@ header{
 #newsletter form{
     float: right;
     width: 50%;
+    margin-bottom: 40px;
 }
 
 #newsletter input[type="email"]{
@@ -516,6 +518,11 @@ h4:hover {
     margin-bottom: 10px;
 }
 
+iframe{
+    margin-left: 20%;
+    margin-right: 40%;
+}
+
 /* Index-page imageboxes */
 #imagebox {
     width: 100%;
@@ -556,7 +563,7 @@ footer{
     left: 0;
     right: 0;
     bottom: 0;
-    width: 101%;
+    width: auto;
     background-color: rgb(255, 153, 0);
     padding-top: 20px;
     font-size: 20px;
@@ -621,20 +628,31 @@ footer{
          padding: 10px 0;
      }
      #newsletter {
-         padding: 20px 0;
+         
+         width: auto;
+         padding-bottom: 583px;
+         height: 50px;
      }
      #newsletter h1{
-         width: 100%;
+         width: 50%;
          margin-top:15px;
+         font-size: xx-small;
      }
      #newsletter form{
-         width: 100%;
-         margin-top:15px;
+         width: 50%;
+         margin-top:50px;
+         margin-left: 20px;
+         font-size: medium;
+         float: left;
      }
      #newsletter input[type="email"], .message input, .message textarea, #newsletter button, .message button{
          width: 100%;
          padding: 4px;
          height: 40px;
+     }
+
+     #newsletter button{
+         width: 50%;
      }
      #sidebar, #main-col{
         width: 100%;
@@ -649,5 +667,34 @@ footer{
      #showcase p{
          font-size: 1em;
      }
+     
+     .row{
+         width: auto;
+     }
+
+     .price-container{
+         margin-left: 10px;
+     }
+
+     .p-box{
+        margin-left: -70px;
+     }
+
+     #services{
+         width: 500px;
+         margin-left: -70px;
+     }
+
+     .content{
+         max-width: 400px;
+     }
+
+     iframe{
+         max-width: 400px;
+         max-height: 300px;
+         margin-left: 0px;
+     }
+
+
      
 }
