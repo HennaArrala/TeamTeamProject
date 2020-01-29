@@ -395,7 +395,7 @@ header #branding{
 }
 
 .p-box{
-    width: 60%;
+    width: 80%;
     height: inherit;
     border: 1px solid darkgrey;
     display: inline-block;
@@ -669,4 +669,5 @@ footer{
      #showcase p{
          font-size: 1em;
      }
+     
 }
