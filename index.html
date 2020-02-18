@@ -51,6 +51,74 @@
         </header>
 
         <!--Article-->
+        <section class="hero">
+            <div class="hero-content">
+                
+                <h3>Kirjaudu OmaLOLiin</h3>
+                <a href="#" id="loginbutton" class="button">Kirjaudu</a>
+                <h3>Rekisteröidy</h3>
+                <a href="#" id="registerbutton" class="button">Luo tunnukset</a>
+            </div>
+        </section>
+
+        <div class="login-modal">
+            <div class="lmodal-contents">
+        
+                <div class="lclose">+</div>
+                <img src="images/Lolmeme.png" alt="" height="60px" width="60px">
+        
+                <form action="">
+                    <input type="text" placeholder="Käyttäjätunnus">
+                    <input type="password" placeholder="Salasana">
+                    <a href="#" class="button">Kirjaudu</a>
+                </form>
+        
+            </div>
+        </div>
+
+        <script>
+
+            document.getElementById('loginbutton').addEventListener("click", function() {
+                document.querySelector('.login-modal').style.display = "flex";
+            });
+            
+            document.querySelector('.lclose').addEventListener("click", function() {
+                document.querySelector('.login-modal').style.display = "none";
+            });
+            
+        </script>
+
+        <div class="register-modal">
+            <div class="rmodal-contents">
+        
+                <div class="rclose">+</div>
+                <img src="images/Lolmeme.png" alt="" height="60px" width="60px">
+        
+                <form action="">
+                    <input type="text" placeholder="Etunimi">
+                    <input type="text" placeholder="Sukunimi">
+                    <input type="text" placeholder="Sähköposti">
+                    <input type="text" placeholder="Puhelinnumero">
+                    <input type="text" placeholder="Käyttäjätunnus">
+                    <input type="password" placeholder="Salasana">
+                    <a href="#" class="button">Rekisteröidy</a>
+                </form>
+        
+            </div>
+        </div>
+
+        <script>
+        
+            document.getElementById('registerbutton').addEventListener("click", function() {
+                document.querySelector('.register-modal').style.display = "flex"; 
+            });
+
+            document.querySelector('.rclose').addEventListener("click", function() {
+                document.querySelector('.register-modal').style.display = "none";
+            });
+            
+        </script>
+
         <section id="main">
             <div class="container">
                 <article id ="main-col">
